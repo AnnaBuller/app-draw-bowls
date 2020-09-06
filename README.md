@@ -4,7 +4,7 @@ DrawBowls is here to support you in learning. Piece by piece expand your knowled
 
 ## Usage
 
-To use the app go to: [DrawBowls]().
+To use the app go to: [DrawBowls](https://annabuller.github.io/app-draw-bowls/).
 
 After drawing three terms search each of them in the Internet and read its definition on your favourite website (ex. MDN or W3C).
 
