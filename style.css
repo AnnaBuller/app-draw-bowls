@@ -1,0 +1,85 @@
+html {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ol {
+	display: none;
+}
+
+.draw {
+	margin-top: 40px;
+	padding: 0 5vw;
+	text-align: center;
+}
+
+.draw__headline {
+	font-size: clamp(2rem, 5vw, 3rem);
+	margin-bottom: 50px;
+}
+
+.draw__btn,
+.draw__btn::after {
+	font-family: 'Roboto Condensed', sans-serif;
+	background: #00b193;
+	border-radius: 20px;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px 60px;
+	text-transform: uppercase;
+}
+.draw__btn {
+	margin-bottom: 50px;
+	position: relative;
+}
+.draw__btn::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: transform 100ms ease-in-out;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.draw__boxes {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 auto 80px;
+}
+
+.box {
+	width: 324px;
+	height: 150px;
+	position: relative;
+	margin: 0 20px;
+}
+
+.box--colored-1 {
+	background: url(./img/base-1.svg) no-repeat center center/contain;
+}
+.box--colored-2 {
+	background: url(./img/base-2.svg) no-repeat center center/contain;
+}
+.box--colored-3 {
+	background: url(./img/base-3.svg) no-repeat center center/contain;
+}
+
+.box__word {
+	font-size: clamp(1.5rem, 3vw, 1.7rem);
+	padding-top: 36px;
+}
+
+.box__name {
+	width: 200px;
+	position: absolute;
+	top: 90px;
+	left: calc(50% - 100px);
+}
+
+.box__word--for-attr {
+	font-style: italic;
+}
