@@ -15,8 +15,12 @@
 	.draw__btn:active::after {
 		transform: scale(1);
 	}
-	.draw__btn:focus {
-		outline: 2px dotted #00b193;
+	.draw__btn:not(:focus-visible) {
+		outline: none;
+	}
+	.draw__btn:-moz-focusring {
+		outline: 5px dotted #00b193;
+		outline-offset: 10px;
 	}
 }
 
